@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    height: auto;
+}
+.nav-part{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 33px 141px;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.nav-menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+font-weight: 700;
+}
+.kid-logo{
+    width: 4rem;
+    height: 4rem;
+}
+.school{
+    font-size: 32px;
+font-weight: 700;
+}
+.home{
+    color: rgb(254, 163, 1);
+}
+.about{
+    color: rgb(1, 172, 253);
+}
+.facilities{
+    color: rgb(5, 212, 223);
+}
+.admission{
+    color: rgb(93, 88, 239);
+}
+.btn{
+    width: 197px;
+height: 50px;
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+color: rgb(255, 255, 255);
+border: none;
+border-radius: 12px;
+background: rgb(254, 163, 1);
+}
+.menu{
+    display: none;
+    flex-direction: column;
+}
+.menu span{
+ width: 25px;
+ height: 5px;
+ background-color: black;
+ margin: 4px 0;
+}
+
+/*  Responsive */
+/* Mobile Responsiveness */
+
+@media screen and (max-width: 576px) {
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .dropdown a{
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    .school{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .dropdown.active{
+        display: flex;
+    }
+    .nav-part{
+        margin: 12px 15px;
+        gap: 250px;
+    }
+    
+    
+}
