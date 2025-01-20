@@ -70,6 +70,45 @@ background: rgb(254, 163, 1);
  margin: 4px 0;
 }
 
+/* bannar part */
+
+.bannar{
+    display: flex;
+    justify-content: center;
+    margin: 12px 141px 0px;
+    gap: 50px;
+}
+.bannar-title{
+    font-size: 56px;
+font-weight: 700;
+margin: 122px 0 24px;
+}
+.power{
+    color: rgb(254, 163, 1)
+}
+.vision{
+    color: rgb(1, 172, 253);
+}
+.description{
+    max-width: 640px;
+    font-size: 20px;
+font-weight: 400;
+color: rgb(17, 17, 17);
+}
+.enroll-btn{
+    width: 197px;
+height: 50px;
+font-size: 20px;
+font-weight: 700;
+border-radius: 12px;
+color: rgb(255, 255, 255);
+margin-top: 24px;
+background: rgb(17, 17, 17);
+}
+.bannar-img img{
+    max-width: 468px;
+    height: auto;
+}
 /*  Responsive */
 /* Mobile Responsiveness */
 
@@ -97,6 +136,23 @@ background: rgb(254, 163, 1);
         margin: 12px 15px;
         gap: 250px;
     }
-    
-    
+    .bannar{
+        border-top: 1px solid orange;
+        flex-direction: column;
+        margin: 12px 15px;
+    }
+    .bannar-img img{
+        width: 100%;
+    }
+    .bannar-title{
+      font-size: 32px;
+      font-weight: 400px;  
+     margin-top: 12px;git 
+    }
+    .bannar-text{
+        text-align: center;
+    }
+    .enroll-btn{
+        justify-content: center;
+    } 
 }
