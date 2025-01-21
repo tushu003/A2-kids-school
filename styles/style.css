@@ -271,6 +271,58 @@ background: rgb(17, 17, 17);
 margin: 88px 620px 59px;
 }
 
+/* footer section */
+
+.footer-section{
+    background: rgb(1, 172, 253);
+    padding-top: 123px;
+    padding-bottom: 123px;
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 228px 0px 140px;
+}
+.kids-logo{
+    width: 82px;
+    height: 81px;
+}
+.kids-education{
+    display: flex;
+    gap: 10px;
+}
+.title{
+    font-size: 42.14px;
+font-weight: 700;
+color: rgb(255, 255, 255);
+justify-content: center;
+}
+.about li{
+    margin-bottom: 20px;
+}
+.about ul li a {
+list-style: none;
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+.about-school{
+    font-size: 24px;
+    margin-bottom: 32px;
+    color: rgb(255, 255, 255);
+}
+.contact{
+    display: flex;
+    gap: 10px;
+}
+.education-description{
+    max-width: 399px;
+    font-size: 20px;
+font-weight: 400;
+margin-top: 20px;
+margin-bottom: 30px;
+color: rgb(255, 255, 255);
+}
+
 /*  Responsive */
 /* Mobile Responsiveness */
 
@@ -353,5 +405,9 @@ margin: 88px 620px 59px;
     }
     .view-btn{
         margin: 30px 100px;
+    }
+    .container3{
+        flex-direction: column;
+        margin: 20px;
     }
 }
