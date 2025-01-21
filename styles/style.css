@@ -347,12 +347,12 @@ color: rgb(255, 255, 255);
         display: flex;
     }
     .nav-part{
-        margin: 12px 15px;
+        margin: 12px 30px;
         gap: 250px;
     }
     .bannar{
         border-top: 1px solid orange;
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: 12px 15px;
     }
     .bannar-img img{
@@ -385,7 +385,7 @@ color: rgb(255, 255, 255);
     }
     .small-cards{
         grid-template-columns: repeat(2, 1fr);
-        margin: 0px 10px;
+        margin: 0px 20px;
         object-fit: cover;
     
     }
@@ -410,4 +410,27 @@ color: rgb(255, 255, 255);
         flex-direction: column;
         margin: 20px;
     }
+}
+
+/* For medium device */
+
+@media screen and (min-width: 577px) and (max-width: 960px){
+    .nav-part, .container, .container2{
+        margin: 33px;
+    }
+    .big-card img{
+        width: 100%;
+    }
+    .big-card{
+        width: 500px;
+    }
+    .view-btn{
+        margin: 20px 400px;
+    }
+    .container3{
+        margin: 33px;
+        
+    }
+
+
 }
