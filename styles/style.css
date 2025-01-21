@@ -343,6 +343,10 @@ color: rgb(255, 255, 255);
     .btn{
         display: none;
     }
+    .bannar-title{
+        font-size: 32px;
+     font-weight: 700;
+    }
     .dropdown.active{
         display: flex;
     }
@@ -367,7 +371,11 @@ color: rgb(255, 255, 255);
         text-align: center;
     }
     .enroll-btn{
+        width: 131px;
+        font-size: 16px;
+        font-weight: 700;
         justify-content: center;
+
     }
     .container{
         flex-direction: column;
@@ -377,6 +385,16 @@ color: rgb(255, 255, 255);
         font-size: 26px;
         margin-bottom: 20px;
     }
+    .description{
+        font-size: 10.22px;
+     font-weight: 500;
+     text-align: center;
+    }
+    .button{
+        width: 53.93px;
+        font-size: 10.22px;
+        font-weight: 700;
+    }
     .arrow-icons{
         display: none;    
     }
@@ -385,7 +403,8 @@ color: rgb(255, 255, 255);
     }
     .small-cards{
         grid-template-columns: repeat(2, 1fr);
-        margin: 0px 20px;
+        justify-content: center;
+        margin: 10px;
         object-fit: cover;
     
     }
@@ -404,11 +423,18 @@ color: rgb(255, 255, 255);
         margin: 0px;
     }
     .view-btn{
-        margin: 30px 100px;
+        width: 134px;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 30px 130px;
     }
     .container3{
         flex-direction: column;
         margin: 20px;
+    }
+    .title{
+        font-size: 35.73px;
+font-weight: 700;
     }
 }
 
