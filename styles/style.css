@@ -172,6 +172,105 @@ border: none;
 background: none;
 margin: 35px auto;
 }
+.arrow-icons{
+    max-width: 1140px;
+    display: flex;
+    margin: 60px 141px;
+    gap: 10px;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+/* story part */
+.stories{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%), url("../assets/bg.png");
+}
+.our-story{
+    font-size: 46px;
+font-weight: 700;
+text-align: center;
+margin: 60px 0 80px;
+}
+.container2{
+    margin: 0 125px;
+    display: flex;
+    gap: 20px;
+}
+ .small-cards{ 
+     display: grid; 
+     grid-template-columns: repeat(2, 1fr);
+     gap: 15px; 
+}
+.big-card{
+    max-width: 540px;
+height: auto;
+    border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+.story-title1{
+    font-size: 24px;
+    margin: 36px 99px 51px 38px;
+}
+.card-description{
+    font-size: 15.34px;
+    margin: 0px 68px 34px 38px;
+}
+.small-card{
+    width: 290.69px;
+height: 301.61px;
+}
+.story1{
+    border-radius: 16px 16px 0px 0px;
+}
+.story-image{
+ border-radius: 16px 16px 0px 0px;
+}
+.date-btn{
+    max-width: 174.51px;
+height: 38.35px;
+font-size: 15.34px;
+font-weight: 500;
+padding: 10px;
+border-radius: 47.93px;
+color: rgb(255, 255, 255);
+border: none;
+background: rgb(149,178,38);
+    margin: -250px ;
+}
+.date-btn1{
+    background-color: rgb(60, 216, 232);
+    margin: -500px;
+}
+.date-btn2{
+    background: rgb(93, 88, 240);
+}
+.story-title{
+    font-size: 15.34px;
+    margin: 23px 35px;
+}
+.small-card{
+    max-width: 290px;
+    height: 301px;
+    border-radius: 16px;
+
+background: rgb(255,255,255);
+
+}
+.view-btn{
+    width: 197px;
+height: 50px;
+font-size: 20px;
+font-weight: 700;
+justify-items: center;
+color: rgb(255, 255, 255);
+border-radius: 12px;
+background: rgb(17, 17, 17);
+margin: 88px 620px 59px;
+}
+
 /*  Responsive */
 /* Mobile Responsiveness */
 
@@ -210,7 +309,7 @@ margin: 35px auto;
     .bannar-title{
       font-size: 32px;
       font-weight: 400px;  
-     margin-top: 12px;git 
+     margin-top: 12px;
     }
     .bannar-text{
         text-align: center;
@@ -225,5 +324,34 @@ margin: 35px auto;
     .curriculum-title{
         font-size: 26px;
         margin-bottom: 20px;
+    }
+    .arrow-icons{
+        display: none;    
+    }
+    .big-card{
+        display: none;
+    }
+    .small-cards{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0px 10px;
+        object-fit: cover;
+    
+    }
+    .small-card{
+        width: 190px;
+    }
+    .date-btn{
+        margin: -20px 20px;
+        font-size: 10px;
+        padding: 10px;
+    }
+    .small-card img{
+        width: 100%;
+    }
+    .container2{
+        margin: 0px;
+    }
+    .view-btn{
+        margin: 30px 100px;
     }
 }
